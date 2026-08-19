@@ -1359,6 +1359,44 @@ img {
   color: #ffffff;
 }
 
+/* Level Card Price Tag Styling ($119.99) */
+.level-price-tag {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 4px;
+  background: rgba(40, 199, 111, 0.1);
+  border: 1px solid rgba(40, 199, 111, 0.35);
+  padding: 8px 22px;
+  border-radius: 20px;
+  margin: 4px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.level-price-currency {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #FFB800;
+}
+
+.level-price-amount {
+  font-family: var(--font-heading);
+  font-size: 2.1rem;
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: -0.5px;
+  text-shadow: 0 0 12px rgba(40, 199, 111, 0.4);
+}
+
+.level-price-period {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #A0B2A6;
+  margin-left: 2px;
+}
+
 .level-card .btn-emerald {
   width: 90%;
   max-width: 280px;
